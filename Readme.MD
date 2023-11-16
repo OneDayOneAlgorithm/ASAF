@@ -340,27 +340,23 @@ $ cd AlgoArium\FE\Algo
 
 ## 7. Design
 
-### 7.1. 시스템 구조도
+### 7.1. 시스템 아키텍쳐
 
-<img src="README/function_specification.png" width="550" height="300">
+<img src="README/architecture.png" width="550" height="300">
 
 <br>
 
-### 7.2. API 설계
+### 7.2. 기능 명세서
 
-[API 명세서](https://ten-brownie-866.notion.site/54edf2756f7848de9f43c8d8c85f85e3?pvs=4)
+<img src="README/function_specification.png" width="550" height="300">
 
-### 7.3. 기능 명세서
-
-[기능 명세서](https://docs.google.com/spreadsheets/d/1YXWEoj4FwIA5q2wiOGrWThPSlwKs1TSfE4VgIX8EKCw/edit#gid=0)
-
-### 7.4. ERD
+### 7.3. ERD
 
 <img src="README/ERD.png">
 
-### 7.5. 배포
+### 7.4. 배포
 
-[배포 정보](exec/1번 문서.md)
+[배포 정보](./exec/1번 문서.md)
 
 <br>
 <br>

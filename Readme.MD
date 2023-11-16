@@ -342,7 +342,7 @@ $ cd AlgoArium\FE\Algo
 
 ### 7.1. 시스템 구조도
 
-<img src="README/architecture.jpg" width="500" height="300">
+<img src="README/function_specification.png" width="550" height="300">
 
 <br>
 
@@ -356,9 +356,9 @@ $ cd AlgoArium\FE\Algo
 
 ### 7.4. ERD
 
-[ERD](README/ERD.png)
+<img src="README/ERD.png">
 
-### 7.5. ERD
+### 7.5. 배포
 
 [배포 정보](exec/1번 문서.md)
 

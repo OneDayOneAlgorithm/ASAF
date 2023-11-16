@@ -20,7 +20,7 @@
 
 - 개발 기간: 2023.07.04 ~ 2023.08.18
 
-- 삼성 청년 소프트웨어 아카데미(SSAFY) 모바일 어플리케이션 공통 프로젝트
+- 삼성 청년 소프트웨어 아카데미(SSAFY) 모바일 어플리케이션 공통 프로젝트.
   
   `#모바일 어플리케이션` `#사내 시스템 앱`
 
@@ -109,55 +109,44 @@
 1. **원격 저장소 복제(git clone)**
 
 ```bash
-https://github.com/OneDayOneAlgorithm/AlgoArium.git
+https://github.com/OneDayOneAlgorithm/ASAF.git
 ```
 
-2. **MariaDB 10.11버전 설치**
+2. **PostgreSQL 13버전 설치**
 
 ```bash
-https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.11.6&os=windows&cpu=x86_64&pkg=msi&m=blendbyte
+https://www.postgresql.org/download/windows/
 ```
 
-3. **HeidiSQL툴을 사용해서 사용자 : root / 암호 : 1234 로 세션 생성**
+3. **pgadmin 4 툴을 사용해서 사용자 : test / 암호 : 1234 로 사용자 생성**
 
-<img src="./README/session.png" width="400" height="300">
+<img src="./README/DB_user.png" width="500" height="300">
 
-4. **이름 : test 로 DB 생성**
+4. **이름 : asaf 로 DB 생성**
 
-<img src="./README/DB.png" width="700" height="300">
+<img src="./README/DB.png" width="550" height="300">
 
 5. **jar 파일이 있는 경로로 이동**
 
 ```bash
-$ cd BE/algoarium/build/libs
+$ cd backend/ASAF/build/libs
 ```
 
 6. **서버 실행**
 
 ```bash
-java -jar algoarium-0.0.1-SNAPSHOT.jar
+java -jar ASAF-0.0.1-SNAPSHOT.jar
 ```
 
 <br>
 
-### 4.2. client 실행
 
-1. **응용 프로그램 실행**
-
-```bash
-$ cd Algoarium
-$ start Algoarium.exe
-// 이후 모바일에서 인증코드 확인 후 연동.
-```
-
-<br>
-
-### 4.3 mobile 실행
+### 4.2 mobile 실행
 
 1. **mobile 코드 경로로 이동**
 
 ```bash
-$ cd AlgoArium\FE\Algo
+$ cd frontend\ASAF
 ```
 
 2. **Adroid Studio로 실행**
@@ -353,10 +342,6 @@ $ cd AlgoArium\FE\Algo
 ### 7.3. ERD
 
 <img src="README/ERD.png">
-
-### 7.4. 배포
-
-[배포 정보](./exec/1번 문서.md)
 
 <br>
 <br>
